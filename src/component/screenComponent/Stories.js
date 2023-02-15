@@ -11,12 +11,13 @@ const Stories = () => {
         {
             id: 1,
             name: 'Your Story',
-            image: require('/home/priya/Desktop/Github/Instagram/src/component/screenComponent/images/albert-dera-ILip77SbmOE-unsplash.jpg')
+            image:  require('/home/priya/Desktop/Github/Instagram/src/component/screenComponent/images/brooke-cagle-k9XZPpPHDho-unsplash.jpg')
         },
         {
             id: 2,
             name: 'Sayan',
-            image: require('/home/priya/Desktop/Github/Instagram/src/component/screenComponent/images/brooke-cagle-k9XZPpPHDho-unsplash.jpg')
+            image: require('/home/priya/Desktop/Github/Instagram/src/component/screenComponent/images/albert-dera-ILip77SbmOE-unsplash.jpg')
+            
         },
         {
             id: 3,
@@ -31,27 +32,27 @@ const Stories = () => {
         {
             id: 5,
             name: 'Sayam',
-            image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'
+            image: require('/home/priya/Desktop/Github/Instagram/src/component/screenComponent/images/elijah-hiett-KCzCfkic-ig-unsplash.jpg')
         },
         {
             id: 0,
             name: 'Sangram',
-            image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'
+            image: require('/home/priya/Desktop/Github/Instagram/src/component/screenComponent/images/elijah-hiett-KCzCfkic-ig-unsplash.jpg')
         },
         {
             id: 6,
             name: 'Spandita',
-            image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'
+            image: require('/home/priya/Desktop/Github/Instagram/src/component/screenComponent/images/elijah-hiett-KCzCfkic-ig-unsplash.jpg')
         },
         {
             id: 7,
             name: 'Sayan',
-            image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'
+            image: require('/home/priya/Desktop/Github/Instagram/src/component/screenComponent/images/elijah-hiett-KCzCfkic-ig-unsplash.jpg')
         },
         {
             id: 8,
             name: 'Rishi',
-            image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'
+            image: require('/home/priya/Desktop/Github/Instagram/src/component/screenComponent/images/elijah-hiett-KCzCfkic-ig-unsplash.jpg')
         },
 
 
