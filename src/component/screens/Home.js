@@ -22,9 +22,9 @@ const Home = () => {
         <ScrollView>
         <Stories/>
         <Post/>
-        {/* <View>
-          <Icon name='reload' style={{fontSize:60,opacity:0.2}}/>
-        </View> */}
+        <View style={{justifyContent:'center', alignItems:"center", padding:20}}>
+          <Icon name='cached' style={{fontSize:60,opacity:0.2}}/>
+        </View>
         </ScrollView>
         
     </View>
