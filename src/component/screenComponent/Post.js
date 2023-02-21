@@ -1,7 +1,7 @@
 import { StyleSheet, Text, View, Image, TouchableOpacity, TextInput } from 'react-native'
 import React, { useState } from 'react'
 import Feather from 'react-native-vector-icons/Feather'
-
+import Ionic from 'react-native-vector-icons/Ionicons'
 import { Icon } from '@rneui/themed'
 
 const Post = () => {
@@ -76,10 +76,10 @@ const Post = () => {
                     style={{ fontSize: 22, paddingRight: 10,}} />
                   </TouchableOpacity>
                   <TouchableOpacity>
-                    <Icon name='chat-bubble-outline' type='ionicons' style={{ fontSize: 22, paddingRight: 10 }} />
+                    <Ionic name='chatbubble-outline' style={{ fontSize: 22, paddingRight: 10, color:'black', }} />
                   </TouchableOpacity>
                   <TouchableOpacity>
-                    <Feather name='navigation' style={{ fontSize: 22 }} />
+                    <Feather name='send' style={{ fontSize: 22, color:'black' }} />
                   </TouchableOpacity>
                 </View>
                 <Icon name='bookmark-border' style={{ fontSize: 22 }} />

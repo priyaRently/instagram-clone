@@ -1,7 +1,7 @@
 import { StyleSheet, Text, TextInput, View } from 'react-native'
 import React from 'react'
-// import Icon from 'react-native-vector-icons/MaterialIcons'
-import { Icon } from '@rneui/themed'
+import Icon from 'react-native-vector-icons/MaterialIcons'
+
 
 const SearchBox = () => {
     return (

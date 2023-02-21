@@ -23,6 +23,7 @@ const App = () => {
                 headerShown: false,
                 tabBarStyle: { height: 50 },
                 tabBarHideOnKeyboard: true,
+                
                 tabBarIcon: ({ focused, size, color }) => {
                     let iconName;
                     if (route.name === 'Home') {

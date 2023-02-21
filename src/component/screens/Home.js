@@ -1,7 +1,8 @@
 import { ScrollView, StatusBar, StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 import Icon from 'react-native-vector-icons/MaterialIcons'
-
+import Fontisto from 'react-native-vector-icons/Fontisto'
+import Feather from 'react-native-vector-icons/Feather'
 import Stories from '../screenComponent/Stories'
 import Post from '../screenComponent/Post'
 
@@ -13,11 +14,11 @@ const Home = () => {
       <StatusBar backgroundColor='white'
         barStyle='dark-content' animated={true} />
       <View style={styles.container}>
-        <Icon name='add' style={{ fontSize: 24 }} />
+        <Feather name='plus-square' style={{ fontSize: 24,color:'black' }} />
         <Text style={styles.title} >
           Instagram
         </Text>
-        <Icon name='navigation' style={{ fontSize: 24, }} />
+        <Fontisto name='messenger' style={{ fontSize: 24, color:'black' }} />
       </View>
         <ScrollView>
         <Stories/>
